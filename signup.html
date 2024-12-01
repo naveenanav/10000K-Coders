@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>  
+    <center>
+        <div class="form-container">
+        <h1>SignUp here!</h1>
+        <form action="login.html" method="post">
+        <input type="text" id="username" name="username" class="field" placeholder="Username" pattern="(?=.*[A-Z])(?=.*[a-z])[a-zA-Z]{3,}" 
+        title="Username must contain at least one uppercase letter, one lowercase letter, and be at least 4 characters long." required/>
+        <br><br>
+        <input type="email" id="email" name="email" class="field" placeholder="Email" pattern="[a-zA-Z0-9_.%-+]+@[a-zA-Z0-9]+\.[a-zA-Z]{2,4}" required/>
+        <br><br>
+        <input type="tel" id="tel" name="tel" class="field" placeholder="Phone Number" pattern="[0-9]{10}" required/>
+        <br>
+        <br>
+        <input type="password" id="password" name="password" class="field" placeholder="Password" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[@#$^])[a-zA-Z0-9_@#$&*]{5,}" required/>
+        <br>
+        <br>
+        <input type="password" id="conf-password" name="conf-password" class="field" placeholder="Confirm Password" 
+        pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[@#$^])[a-zA-Z0-9_@#$&*]{5,}" required
+        oninput="this.setCustomValidity(this.value!==document.getElementById('password').value ? 'Password and Cofirm Password fields must match':'')"/> 
+        <br><br>
+        <button type="submit" id="button">Sign Up</button>
+        </form>
+        <br>
+        <div class="form-footer">
+            <p>Already have an account! <a href="/login.html"><b>Login</b></a></p>
+        </div>
+        </div>
+        </center>
+</body>
+</html>

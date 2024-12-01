@@ -1,0 +1,121 @@
+body{
+    background-color:steelblue;
+}
+
+/* --------------------- Signup ------------------------ */
+.form-container
+{
+    max-width:400px;
+    background-color:white ;
+    box-align:center;
+    border-radius:8px;
+    margin:50px;
+    padding:20px;
+}
+
+.field
+{
+    width:350px;
+    height:30px;
+    border-radius:10px;
+}
+
+#button
+{
+    width:350px;
+    height:40px;
+    border-radius: 20px;
+    color:white;
+    background-color:blue;
+    cursor:pointer;
+    text-align:center;
+}
+#button:hover{
+    background-color: slategray;
+}
+.form-footer
+{
+    text-align:center;
+    margin-top:10px;
+}
+.form-footer a{
+    text-decoration:none;
+    color:red;
+}
+
+.form-footer a:hover{
+    text-decoration: underline;
+}
+
+/* ------------------------------------ Login ------------------------------------------- */
+.login-container
+{
+    width:350px;
+    background-color:white;
+    box-align:center;
+    border-radius:5px;
+    margin:100px;
+    padding:20px;
+}
+
+.login_field
+{
+    width:250px;
+    height:30px;
+    border-radius:10px;
+}
+button[type="submit"]
+{
+    width:250px;
+    height:40px;
+    border-radius:5px;
+    color:white;
+    background-color:blue;
+    cursor:pointer;
+    text-align: center;
+    font-weight: bold;
+}
+
+button[type="submit"]:hover{
+    background-color: sandybrown;
+}
+.login-footer a
+{
+    color:red;
+    text-decoration:none;
+}
+
+.login-footer a:hover{
+    text-decoration: underline;
+}
+
+/* ------------------------ Reset Password ------------------------- */
+.div3
+{
+    width:350px;
+    background-color:white;
+    box-align:center;
+    border-radius:5px;
+    margin:85px;
+    padding:20px;
+}
+.d3
+{
+    width:300px;
+    height:25px;
+    border-radius:5px;
+    padding:5px;
+}
+#reset-password
+{
+    width:150px;
+    height:40px;
+    border-radius:5px;
+    color:white;
+    background-color:royalblue;
+    cursor:pointer;
+    text-align:center;
+}
+#reset-password:hover{
+    background-color: blue;
+}
